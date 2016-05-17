@@ -1,0 +1,9 @@
+<style>
+   h1 {
+      text align: center;
+      }
+</style>
+<h1>Anna Dowlin</h1>
+<p>Hi I'm Anna Dowlin - a NYC based thingamajig, say hello!</p>
+<input type="email" placeholder="Your email">
+<input type="Submit">
