@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>Anna Dowlin</title> <!-- controls what shows up in the browser tab -->
+  <style>
+     body {
+       text-align: center;
+       background: black;
+       color: white; /* color property is for text */
+       font-family: helvetica;
+     }
+  </style>
+</head>
+
+<!-- DOCTYPE, head, and body make up that foundation that every website
+starts from. It can also be referred to as the "boilerplate". -->
+
+<body>
+  <h1>Anna Dowlin</h1>
+  <p>Hi! I'm Anna, a NYC-based marketer. Say hello!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
