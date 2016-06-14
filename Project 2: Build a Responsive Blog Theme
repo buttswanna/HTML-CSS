@@ -1,0 +1,47 @@
+<!-- The basic structure of a webpage is as follows:
+<!DOCTYPE html>
+
+<head>
+Meta information goes here
+</head>
+
+<body>
+Page content goes here
+</body>
+-->
+
+<!-- The <style> tag is one way to include css into an html file. Another way is to use the <link> tag -->
+<!-- The <link> tag allows you to include css from an external file rather than keeping it all written out in the html file. This becomes important when working on larger projects with thousands of lines of code -->
+<!-- an example of this is: <link href="/normalize.css" rel="stylesheet"> (href is the url where the css file lives, rel should always be set to "stylesheet" -->
+
+
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center; <!-- Centers all the text in the header -->
+      }
+    ul { <!-- By default the browser gives the list (in navigation bar) some padding to make room for the bullet points, which makes the links off center. -->
+      padding: 10px; <!-- we can fix this by addding uniform padding on all sides -->
+    }
+    li { 
+      display: inline; <!-- Makes links in navigation bar line up in a row -->
+      
+      <!-- Every html element has a default value for display - usually it's block or inline -->
+      <!-- Elements like headings, paragraphs and list items display "block" by default, which means they stretch across the whole width of the page and have line breaks before and after. -->
+      <!-- Links (the <a> tag) and a few other elements diplay "inline" by default, which means they exist within the normal flow of the text they're contained within - no line breaks, no taking up the width of the whole page -->
+  
+  </style> 
+</head>
+<body>
+  <header> <!-- Special tag made just for headers -->
+    <img src="/assets/jeff.png"> <!-- includes image in header -->
+    <h1>Jeffs's Blog</h1> <!-- header of the blog -->
+    <ul> <!-- This stands for unordered list - in this context it is used to make the navigation bar -->
+      <li><a href="#">About Me</a></li> <!-- <li> is a list item - here it's use is as a link -->
+      <li><a href="#">Best Poems</a></li> <!-- to make the list item a link, we use <a> which stands for anchor link -->
+      <li><a href="#">Worst Poems</a></li> <!-- <a> has an attribute called href which controls the URL your browser opens when you click on the link -->
+    </ul>
+  </header>
+</body>
